@@ -1,0 +1,21 @@
+.modalContenido{
+    background-color:silver;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+  
+  }
+  .modal{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+  }
+  
+  #modalPlanes:target{
+    opacity:1;
+    pointer-events:auto;
+  }
