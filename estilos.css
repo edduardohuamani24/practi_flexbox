@@ -1,5 +1,66 @@
+*{
+  margin:0 ;
+  padding: 0;
+}
+
+header{
+  background-color: #1e5372;
+  color: white;
+}
+
+.menuBar{
+  height: 87px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuBar__logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
 
 
+.enlaces{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+
+.lista__item{
+  color: white;
+  text-decoration: none;
+}
+
+.seleccionaPlan{
+  display: flex;
+  align-items: center;
+}
+
+.seleccionaPlan__opciones{
+  color: white;
+  text-decoration: none;
+}
+
+.menuBar__botonInicio{
+  display: flex;
+  align-items: center;
+}
+
+.botonInicio{
+  background-color: #95ca3e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.menuBar__buscador{
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -8,7 +69,6 @@
     width:300px;
     padding: 10px 20px;
     margin: 20% auto;
-  
   }
   .modal{
     position:fixed;
