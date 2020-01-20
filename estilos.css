@@ -6,33 +6,35 @@
 header{
   background-color: #1e5372;
   color: white;
+  font-weight: 700;
 }
 
 .menuBar{
   height: 87px;
   width: 1400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around
 }
 
 .menuBar__logo{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
 }
 
 
 .enlaces{
  display: flex;
  align-items: center;
- justify-content: space-between;
 }
+
 
 
 .lista__item{
   color: white;
+  padding: 5px 12px 5px 5px;
   text-decoration: none;
+  
 }
 
 .seleccionaPlan{
