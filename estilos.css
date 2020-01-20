@@ -6,11 +6,13 @@
 header{
   background-color: #1e5372;
   color: white;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: sans-serif;;
 }
 
 .menuBar{
-  height: 87px;
+  height: 55px;
   width: 1400px;
   display: flex;
   justify-content: space-around
@@ -25,7 +27,10 @@ header{
 .enlaces{
  display: flex;
  align-items: center;
- margin-left: 120px;
+ margin-left: 240px;
+ margin-right: 10px;
+ border-right-style: solid;
+ border-color: #fff;
 }
 
 
@@ -36,6 +41,7 @@ header{
   text-decoration: none;
   
 }
+
 
 .seleccionaPlan{
   display: flex;
