@@ -19,13 +19,13 @@ header{
 .menuBar__logo{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 
 .enlaces{
  display: flex;
  align-items: center;
+ margin-left: 120px;
 }
 
 
