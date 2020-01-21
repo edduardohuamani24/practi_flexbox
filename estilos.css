@@ -9,53 +9,59 @@ header{
   font-weight: bold;
   font-size: 14px;
   font-family: sans-serif;;
+  min-width: 1400px;
+ 
 }
 
 .menuBar{
   height: 55px;
   width: 1400px;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .menuBar__logo{
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
+
+.menuNav{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: auto;
+}
 
 .enlaces{
- display: flex;
- align-items: center;
- margin-left: 240px;
- margin-right: 10px;
- border-right-style: solid;
- border-color: #fff;
-}
-
+  margin-left: 245px;
+  margin-right: auto;
+ }
 
 
 .lista__item{
   color: white;
   padding: 5px 12px 5px 5px;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 
 .seleccionaPlan{
-  display: flex;
-  align-items: center;
+  margin-left: 25px;
+  margin-right:auto;
 }
 
 .seleccionaPlan__opciones{
   color: white;
   text-decoration: none;
+
 }
 
 .menuBar__botonInicio{
-  display: flex;
-  align-items: center;
+  margin-left: 10px;
+  margin-right: auto;
 }
 
 .botonInicio{
@@ -63,14 +69,38 @@ header{
   color: white;
   border: none;
   border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .menuBar__buscador{
+  margin-left:auto;
+  margin-right:100px;
   display: flex;
   align-items: center;
 }
 
 
+.buscador__input{
+  border: 1px solid #fff;
+  padding: 8px 0 8px 16px;
+  border-radius: 5px 0 0 5px;
+  font-size: 12px;
+  width: 200px;
+  margin-left:5px;
+  margin-right: auto;
+}
+
+.buscador__icono{
+  fill: #fff;
+  background-color: #95ca3e;
+  border: 1px solid #95ca3e;
+  border-radius: 0 5px 5px 0;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 40px;
+  cursor: pointer;
+}
 
 .modalContenido{
     background-color:silver;
