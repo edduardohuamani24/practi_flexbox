@@ -1,16 +1,15 @@
 *{
   margin:0 ;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header{
-  background-color: #1e5372;
+  background: url(https://static.platzi.com/bff/image/bg_hero-833887bed13dfe7983c4b35651201bfb.png),linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
   color: white;
   font-weight: bold;
   font-size: 14px;
-  font-family: sans-serif;;
-  min-width: 1400px;
- 
+  min-width: 1400px;/*anchura minima*/
 }
 
 .menuBar{
@@ -18,25 +17,29 @@ header{
   width: 1400px;
   display: flex;
   justify-content: space-around;
+  /*margin: 0 auto;*/
+  border-bottom-width: thin;/*Tipo de grosor del borde*/
+  border-bottom-color: grey;
+  border-bottom-style: outset;/*Estilo del borde*/
 }
 
 .menuBar__logo{
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 140px;
 }
 
 
 .menuNav{
   display: flex;
   align-items: center;
-  margin-left: 5px;
+  margin-left:  90px;
   margin-right: auto;
 }
 
 .enlaces{
-  margin-left: 245px;
+  margin-left: 50px;
   margin-right: auto;
  }
 
@@ -44,7 +47,7 @@ header{
 .lista__item{
   color: white;
   padding: 5px 12px 5px 5px;
-  text-decoration: none; 
+  text-decoration: none; /*Quitar subrayado*/
 }
 
 
@@ -78,21 +81,23 @@ header{
   margin-right:100px;
   display: flex;
   align-items: center;
+  
 }
 
 
 .buscador__input{
-  border: 1px solid #fff;
+  border: 1px solid #fff; /*color de borde*/
   padding: 8px 0 8px 16px;
   border-radius: 5px 0 0 5px;
   font-size: 12px;
-  width: 200px;
+  width: 204px;
   margin-left:5px;
   margin-right: auto;
+  
 }
 
 .buscador__icono{
-  fill: #fff;
+  fill: #fff; /*color del elemento*/
   background-color: #95ca3e;
   border: 1px solid #95ca3e;
   border-radius: 0 5px 5px 0;
@@ -100,6 +105,7 @@ header{
   margin-right: 10px;
   width: 40px;
   cursor: pointer;
+
 }
 
 .modalContenido{
@@ -122,3 +128,80 @@ header{
     opacity:1;
     pointer-events:auto;
   }
+
+body{
+  font-size:16px;
+  min-width: 1400px;
+}
+
+.contenedorLayout{
+    background: url(https://static.platzi.com/bff/image/bg_hero-833887bed13dfe7983c4b35651201bfb.png),linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contenido{
+  display: flex;
+  justify-content: center;
+}
+
+.contenido__titulo{
+  padding-top: 40px;
+}
+
+.contenido__estadisticas{
+  margin-top: 30px;
+  width: 300px;
+}
+
+.contenido__elementosItem{
+  margin-top: 25px ;
+}
+.contenido__elementosItem span:first-of-type{
+  color: #33b1ff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+
+  .contenido__imagen{
+    background: url(https://static.platzi.com/bff/image/hero_person_md-0fe547e6c79cb8d85745d9ddc8d57dea.png);
+    background-repeat: no-repeat;
+    width: 288px;
+    height: 422px;
+    margin-left: 550px;
+    margin-right: auto;
+
+  }
+
+  .contenido_acciones{
+    padding-top: 30px;
+    
+  }
+
+  .contenido_acciones button{
+    color: white;
+    display: block;
+    margin: 0 0 16px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.contenido__botonRegistro{
+    padding: 14px 90px;
+    background-color: yellowgreen;
+    border-style: none;
+}
+
+.contenido__botonPrimeraClase{
+  background-color: transparent;
+  padding: 10px 110px;
+  border:1px solid #fff;
+    
+}
